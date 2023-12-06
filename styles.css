@@ -1,3 +1,8 @@
+body {
+  min-width: 400px;
+
+}
+
 #input-el {
     padding: 1px 100px;
     background: rgb(31, 32, 35);
@@ -66,4 +71,35 @@
   .button-50 {
     padding: 12px 50px;
   }
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+ul {
+  background-color: #f8f9fa; 
+  padding: 10px;
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Style for anchor tags within list items */
+li a {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+  font-weight: bold;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: #0056b3; 
 }
