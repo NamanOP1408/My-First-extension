@@ -4,13 +4,18 @@
     const inputBtn = document.getElementById("input-btn");
     const ulEl = document.getElementById("ul-el");
     const deleteBtn = document.getElementById("delete-btn");
-
+    const tabBtn = document.getElementById("tab-btn");
     const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
     
     if (leadsFromLocalStorage){
         myLeads = leadsFromLocalStorage;
         render(myLeads);
     }
+
+    tabBtn.addEventListener("click", function(){
+        console.log("hello");
+    })
+
     function render(leads){
         let listItems = "";
             for (i = 0; i < leads.length; i++){
