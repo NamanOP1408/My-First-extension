@@ -1,54 +1,58 @@
-# Lead Tracker Extension
+# Lead Tracker Chrome Extension
 
-## Overview
-
-The Lead Tracker Extension is a browser extension that allows users to easily save and manage leads (links) directly from their browser.
+A simple Chrome extension to track and manage leads. This extension allows you to save and organize leads directly from your browser.
 
 ## Features
 
-- Save leads with a single click
-- View and manage saved leads in a user-friendly interface
-- Open saved leads in a new tab
+- **Save Leads:** Easily save leads by manually entering them or by capturing the current active tab's URL.
+- **View Leads:** View a list of your saved leads with clickable links to open them in a new tab.
+- **Delete Leads:** Clear all saved leads with a double-click.
+
+## How to Use
+
+1. **Manual Entry:**
+   - Enter a lead in the input field.
+   - Click the "Add Lead" button to save it.
+   - The lead will be displayed in the list.
+
+2. **Capture Tab URL:**
+   - Click the "Capture Tab URL" button to save the URL of the currently active tab.
+   - The URL will be added to the list of leads.
+
+3. **View Leads:**
+   - All saved leads will be displayed in a clickable list.
+
+4. **Delete Leads:**
+   - Double-click the "Delete Leads" button to clear all saved leads.
 
 ## Getting Started
 
-Follow these steps to use the Lead Tracker Extension:
+To use or contribute to this extension, follow these steps:
 
-1. **Installation:**
-   - Download the extension from the [Chrome Web Store](#) (Replace with the actual link once published).
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/NamanOP1408/My-First-extension.git
 
-2. **Usage:**
-   - Click on the extension icon in your browser toolbar to open the lead tracker interface.
-   - Enter the lead (link) in the input field and click the "Save" button.
-   - View and manage your saved leads in the extension's interface.
+### Load the Extension:
 
-3. **Contribution:**
-   - Contributions are welcome! If you find a bug or have an enhancement in mind, please open an issue or submit a pull request.
+1. Open Chrome and go to `chrome://extensions/`.
+2. Enable "Developer mode" in the top right corner.
+3. Click "Load unpacked" and select the extension folder.
 
-## Development
+### Run the Extension:
 
-If you want to contribute to the development of the Lead Tracker Extension, follow these steps:
+1. Open a new tab and click on the extension icon.
+2. Start tracking your leads!
 
-1. Clone the repository:
+### Technologies Used
 
-    ```bash
-    git clone https://github.com/your-username/lead-tracker-extension.git
-    ```
+- HTML
+- JavaScript
+- CSS
+- Chrome Extension API
 
-2. Open the extension folder in your code editor.
 
-3. Make changes and test locally.
+### Acknowledgments
 
-4. Submit a pull request with your changes.
+This project was created in inspiration of FreeCodeCamp as a learning endeavor to master JavaScript.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or support, please contact [your email address].
-
----
-
-**Note:** Replace placeholders such as `[Chrome Web Store]`, `[your-username]`, and `[your email address]` with actual details. Additionally, consider adding more sections such as "Screenshots," "Known Issues," or "Acknowledgments" depending on the complexity of your extension.
